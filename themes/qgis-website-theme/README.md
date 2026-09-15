@@ -193,7 +193,7 @@ hugo server -t ../..
 ```
 
 
-# open http://localhost:1313/
+# open https://qgis-cameroun-eight.vercel.app/
 
 ### Hugo Terminology Glossary
 

@@ -206,7 +206,7 @@ Use an appropriate Hugo plugin for your IDE, or run Hugo från the command line:
 hugo server
 ```
 
-You can then visit the hot-reloaded site in your browser at `http://localhost:1313/`
+You can then visit the hot-reloaded site in your browser at `https://qgis-cameroun-eight.vercel.app/`
 
 
 ![-----------------------------------------------------](./img/green-gradient.png)

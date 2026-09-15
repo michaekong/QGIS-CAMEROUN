@@ -1,6 +1,6 @@
 {{ $isLocal := (or (eq .Site.BaseURL "/") (strings.Contains .Site.BaseURL "localhost")) }}
 {{ $locationPrefix := .Site.Params.uniNavHeaderLocationPrefix }}
-{{ $logoIcon := .Site.Params.uniNavHeaderLogoIcon | default "http://localhost:1313/img/qgis-cameroun-icone-512.png" }}
+{{ $logoIcon := .Site.Params.uniNavHeaderLogoIcon | default "https://qgis-cameroun-eight.vercel.app/img/qgis-cameroun-icone-512.png" }}
 
 
 <qg-top-nav

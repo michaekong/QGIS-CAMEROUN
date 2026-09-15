@@ -2,31 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/about-us/</loc>
+    <loc>https://qgis-cameroun-eight.vercel.app/about-us/</loc>
   </url><url>
-    <loc>http://localhost:1313/blog/</loc>
+    <loc>https://qgis-cameroun-eight.vercel.app/blog/</loc>
   </url><url>
-    <loc>http://localhost:1313/case-studies/</loc>
+    <loc>https://qgis-cameroun-eight.vercel.app/case-studies/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://qgis-cameroun-eight.vercel.app/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/community/</loc>
+    <loc>https://qgis-cameroun-eight.vercel.app/community/</loc>
   </url><url>
-    <loc>http://localhost:1313/events/</loc>
+    <loc>https://qgis-cameroun-eight.vercel.app/events/</loc>
   </url><url>
-    <loc>http://localhost:1313/internal-regulations/</loc>
+    <loc>https://qgis-cameroun-eight.vercel.app/internal-regulations/</loc>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://qgis-cameroun-eight.vercel.app/</loc>
   </url><url>
-    <loc>http://localhost:1313/search/</loc>
+    <loc>https://qgis-cameroun-eight.vercel.app/search/</loc>
     <priority>0.1</priority>
   </url><url>
-    <loc>http://localhost:1313/series/</loc>
+    <loc>https://qgis-cameroun-eight.vercel.app/series/</loc>
   </url><url>
-    <loc>http://localhost:1313/submenus/</loc>
+    <loc>https://qgis-cameroun-eight.vercel.app/submenus/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://qgis-cameroun-eight.vercel.app/tags/</loc>
   </url><url>
-    <loc>http://localhost:1313/tutorials/</loc>
+    <loc>https://qgis-cameroun-eight.vercel.app/tutorials/</loc>
   </url>
 </urlset>
