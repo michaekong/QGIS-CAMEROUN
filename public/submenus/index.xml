@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Submenus on QGIS User Group Template</title>
-    <link>https://qgis-cameroun-eight.vercel.app/submenus/</link>
+    <link>//localhost:1313/submenus/</link>
     <description>Recent content in Submenus on QGIS User Group Template</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://qgis-cameroun-eight.vercel.app/submenus/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/submenus/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
