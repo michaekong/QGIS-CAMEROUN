@@ -32,12 +32,12 @@ Our mission is to advance the adoption and effective use of open-source Geograph
 The Association is guided by an elected Executive Bureau committed to transparency and progressive community development.
 
 ### Executive Bureau
-- **President:** [Name of the President]
+- **President:** Eloundou Abega Jean Jovanick
 - **Vice-President:** Asonglefac Synthia
 - **Secretary General:** Ariane Assene
-- **Treasurer General:** [Name of the Treasurer]
-- **Communication Manager:** [Name of the Communication Manager]
-- **Projects Manager:** [Name of the Projects Manager]
+- **Treasurer General:** Nfor Prilson
+- **Communication Manager:** Kam Fotso Gislain
+- **Projects Manager:** Jastsa Guedia Amael
 
 ### Regional Coordination
 To ensure nationwide impact, our community is anchored by dedicated Regional Coordinators in key areas, including Yaoundé (Centre), Douala (Littoral), Bafoussam (West), Buea (South-West), and Garoua (North).
