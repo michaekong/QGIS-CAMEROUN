@@ -3,7 +3,7 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="128px" height="128px" viewBox="0 0 128 128" enable-background="new 0 0 128 128" xml:space="preserve">
-<polygon fill="#EE7913" points="68.613,69.625 86.891,69.625 71.697,54.625 52.613,54.625 52.613,72.746 68.613,88.548 "/>
+<polygon fill="rgb(238, 52, 19)" points="68.613,69.625 86.891,69.625 71.697,54.625 52.613,54.625 52.613,72.746 68.613,88.548 "/>
 <linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="402.5244" y1="-220.8706" x2="400.6479" y2="-97.5023" gradientTransform="matrix(1 0 0 -1 -300.5195 -92.5547)">
 	<stop  offset="0" style="stop-color:#589632"/>
 	<stop  offset="1" style="stop-color:#93B023"/>
