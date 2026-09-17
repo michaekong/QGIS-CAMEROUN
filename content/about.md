@@ -29,7 +29,7 @@ Our mission is to advance the adoption and effective use of open-source Geograph
 
 ## Our Leadership
 
-The Association is guided by an elected Executive Bureau committed to transparency and progressive community development.
+The Association is guided by an elected Executive Bureau and dedicated thematic coordinators, all committed to transparency and progressive community development.
 
 ### Executive Bureau
 - **President:** Eloundou Abega Jean Jovanick
@@ -39,6 +39,13 @@ The Association is guided by an elected Executive Bureau committed to transparen
 - **Communication Manager:** Kam Fotso Gislain
 - **Projects Manager:** Jastsa Guedia Amael
 
+### Thematic Pole Managers
+To ensure structured and effective community action, our core thematic poles are led by dedicated coordinators:
+- **Communication, Events & Social Media:** Afenui Nguefack Nelly
+- **Partnerships & Resource Mobilization:** Adamou Ahmadou Arafat
+- **Development, Plugins & GIS Innovation:** Ndekebai Meyie Michael
+
+
 ### Regional Coordination
 To ensure nationwide impact, our community is anchored by dedicated Regional Coordinators in key areas, including Yaoundé (Centre), Douala (Littoral), Bafoussam (West), Buea (South-West), and Garoua (North).
 
@@ -46,7 +53,7 @@ To ensure nationwide impact, our community is anchored by dedicated Regional Coo
 
 We welcome individuals and institutions interested in geospatial technologies, from complete beginners to seasoned professionals. Our membership comprises:
 - GIS professionals and certified cartographers
-- environementalists and natural resource managers
+- Environmental scientists and natural resource managers
 - Urban planners and territorial development experts
 - Academic researchers and university lecturers
 - Geomatics students and interns
@@ -65,7 +72,7 @@ Our community operates on a foundation of strict professional and ethical standa
 
 We welcome inquiries, partnership proposals, and membership applications.
 
-- **Email:** contact@qgis-cameroon.org
+- **Email:** qgiscameroun@gmail.com
 - **Mailing List:** [Link to mailing list or newsletter signup]
 - **Professional Networks:** [Link to LinkedIn] | [Link to Facebook]
 - **Community Chat:** [Link to WhatsApp, Telegram, or Discord group]

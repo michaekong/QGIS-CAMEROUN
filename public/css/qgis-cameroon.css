@@ -1,0 +1,35 @@
+
+/* ========================================
+   CORRECTION MOBILE POUR DOUBLE NAVBAR
+   ======================================== */
+
+/* Assure que la barre QGIS Cameroun passe au-dessus ou s'aligne bien */
+.qgis-cm-navbar {
+  z-index: 1000 !important;
+  position: relative !important;
+}
+
+/* Sur mobile, on s'assure que le menu déroulant est bien visible */
+@media screen and (max-width: 1023px) {
+  .qgis-cm-navbar {
+    margin-top: 40px !important; /* Espace pour la barre QGIS globale */
+  }
+  
+  .qgis-cm-navbar .navbar-menu {
+    background-color: #ffffff !important;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1) !important;
+    padding: 1rem 0 !important;
+  }
+
+  .qgis-cm-navbar .navbar-item {
+    color: #333333 !important;
+    padding: 0.75rem 1.5rem !important;
+    border-bottom: 1px solid #f0f0f0 !important;
+  }
+
+  .qgis-cm-navbar .navbar-item.is-active {
+    color: #C62828 !important; /* Votre rouge signature */
+    background-color: #fff5f5 !important;
+    border-left: 4px solid #C62828 !important;
+  }
+}

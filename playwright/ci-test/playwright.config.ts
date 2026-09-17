@@ -1,91 +1,71 @@
 import { defineConfig, devices } from "@playwright/test";
 
 /**
- * Read environment variables from file.
- * https://github.com/motdotla/dotenv
- */
-
-//require('dotenv').config();
-
-/**
  * See https://playwright.dev/docs/test-configuration.
  */
 export default defineConfig({
     testDir: "./tests",
-    /* Run tests in files in parallel */
+    
+    /* Timeout global de 30 secondes par test */
     timeout: 30 * 1000,
-    /* Set expect timeout to 15 seconds*/
+    
+    /* Timeout de 15 secondes pour les assertions (expect) */
     expect: {
         timeout: 15 * 1000,
     },
+    
+    /* Exécuter les tests en parallèle */
     fullyParallel: true,
-    /* Fail the build on CI if you accidentally left test.only in the source code. */
+    
+    /* Échouer en CI si test.only est laissé dans le code */
     forbidOnly: !!process.env.CI,
-    /* Retry on CI only */
+    
+    /* Réessayer 2 fois en CI, 0 fois en local */
     retries: process.env.CI ? 2 : 0,
-    /* Opt out of parallel tests on CI. */
+    
+    /* 1 seul worker en CI pour éviter les conflits, parallèle en local */
     workers: process.env.CI ? 1 : undefined,
-    /* Reporter to use. See https://playwright.dev/docs/test-reporters */
+    
+    /* Rapport de test en HTML */
     reporter: "html",
-    /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
+    
+    /* Paramètres partagés pour tous les projets */
     use: {
-        /* Base URL to use in actions like `await page.goto('/')`. */
-        // baseURL: 'http://127.0.0.1:3000',
-
-        /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
+        /* Enregistrer une trace lors du premier échec pour débogage */
         trace: "on-first-retry",
-        baseURL:
-            process.env.STAGING === "1"
-                ? "https://qgis.github.io/QGIS-User-Group-Website/"
-                : "http://127.0.0.1:1313",
+        
+        /* CORRECTION 1 : URL de base logique. 
+           Si STAGING=1, on pointe vers le site de préprod, sinon le local Hugo (port 1313) */
+        baseURL: process.env.STAGING === "1" 
+            ? "https://votre-site-de-staging.com" 
+            : "http://127.0.0.1:1313",
     },
 
-    /* Configure projects for major browsers */
+    /* Configuration des projets de navigateurs */
     projects: [
-        { name: "setup", testMatch: /.*\.setup\.ts/ },
+        /* CORRECTION 2 : Suppression du projet "setup" s'il n'est pas strictement nécessaire.
+           Pour un site statique Hugo public, l'authentification (login) est rarement requise.
+           Si vous avez VRAIMENT un fichier tests/global.setup.ts, vous pouvez le remettre. */
         {
             name: "chromium",
             use: {
                 ...devices["Desktop Chrome"],
             },
-            dependencies: ["setup"],
+            // dependencies: ["setup"], // <-- Retiré pour éviter l'erreur de dépendance manquante
         },
-        //
+        
+        // Vous pouvez décommenter Firefox ou Webkit plus tard si besoin
         // {
         //   name: 'firefox',
         //   use: { ...devices['Desktop Firefox'] },
         // },
-        //
-        // {
-        //   name: 'webkit',
-        //   use: { ...devices['Desktop Safari'] },
-        // },
-
-        /* Test against mobile viewports. */
-        // {
-        //   name: 'Mobile Chrome',
-        //   use: { ...devices['Pixel 5'] },
-        // },
-        // {
-        //   name: 'Mobile Safari',
-        //   use: { ...devices['iPhone 12'] },
-        // },
-
-        /* Test against branded browsers. */
-        // {
-        //   name: 'Microsoft Edge',
-        //   use: { ...devices['Desktop Edge'], channel: 'msedge' },
-        // },
-        // {
-        //   name: 'Google Chrome',
-        //   use: { ...devices['Desktop Chrome'], channel: 'chrome' },
-        // },
     ],
 
-    /* Run your local dev server before starting the tests */
-    // webServer: {
-    //   command: 'npm run start',
-    //   url: 'http://127.0.0.1:3000',
-    //   reuseExistingServer: !process.env.CI,
-    // },
+    /* CORRECTION 3 : Lancer automatiquement le serveur Hugo avant les tests */
+    webServer: {
+        command: "hugo server --config config.toml,config/config.dev.toml --disableFastRender",
+        url: "http://127.0.0.1:1313",
+        reuseExistingServer: !process.env.CI, // Réutilise le serveur s'il est déjà lancé en local
+        timeout: 120 * 1000, // Donne 2 minutes à Hugo pour builder le site au besoin
+    },
 });

@@ -150,17 +150,85 @@
 
 
 
+<nav class="navbar is-primary qgis-cm-navbar" role="navigation" aria-label="main navigation" style="margin-top: 40px;">
+  <div class="container">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="/">
+        <strong style="font-size: 1.1rem; letter-spacing: 0.5px;">QGIS CAMEROUN</strong>
+      </a>
+
+      
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="qgis-cm-menu">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+    <div id="qgis-cm-menu" class="navbar-menu">
+      <div class="navbar-end">
+        
+          
+          <a class="navbar-item" href="/">
+            Home
+          </a>
+        
+          
+          <a class="navbar-item" href="/about-us/">
+            About Us
+          </a>
+        
+          
+          <a class="navbar-item" href="/case-studies/">
+            Case Studies
+          </a>
+        
+          
+          <a class="navbar-item" href="/events/">
+            Events
+          </a>
+        
+          
+          <a class="navbar-item" href="/community/">
+            Community
+          </a>
+        
+          
+          <a class="navbar-item is-active" href="/tutorials/">
+            Tutorials
+          </a>
+        
+          
+          <a class="navbar-item" href="/blog/">
+            Blog
+          </a>
+        
+          
+          <a class="navbar-item" href="/rules/">
+            Rules
+          </a>
+        
+      </div>
+    </div>
+  </div>
+</nav>
 
 
-<qg-top-nav
-    breakpoint="1024"
-    class="is-highest navbar is-fixed-top"
-    location-prefix="https://qgis.org"
-    logo-icon="https://qgis-cameroun-eight.vercel.app/img/qgis-cameroun-icone-512.png"
-    logo-link="//localhost:1313/"
-    second-menu-prefix="https://qgis.github.io/QGIS-User-Group-Website/"
-    secondary-menu-config="https://raw.githubusercontent.com/qgis/QGIS-User-Group-Website/main/static/config/navigation.json"
-></qg-top-nav>
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+    if ($navbarBurgers.length > 0) {
+      $navbarBurgers.forEach( el => {
+        el.addEventListener('click', () => {
+          const target = el.dataset.target;
+          const $target = document.getElementById(target);
+          el.classList.toggle('is-active');
+          $target.classList.toggle('is-active');
+        });
+      });
+    }
+  });
+</script>
 
 
 

@@ -65,7 +65,7 @@ Our community operates on a foundation of strict professional and ethical standa
 
 We welcome inquiries, partnership proposals, and membership applications.
 
-- **Email:** contact@qgis-cameroon.org
+- **Email:** qgiscameroun@gmail.com
 - **Mailing List:** [Link to mailing list or newsletter signup]
 - **Professional Networks:** [Link to LinkedIn] | [Link to Facebook]
 - **Community Chat:** [Link to WhatsApp, Telegram, or Discord group]
