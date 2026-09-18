@@ -92,7 +92,7 @@ Our community has a strong track record of organizing impactful geospatial event
 
 We actively encourage community participation. If you wish to present a project, lead a workshop, or propose a new event format, please submit your proposal to our Events Coordinator. 
 
-**Contact:** events@qgis-cameroon.org
+**Contact:** qgiscameroun@gmail.com
 
 {{< rich-content-end >}}
 {{< rich-box-end >}}

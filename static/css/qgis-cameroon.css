@@ -33,3 +33,48 @@
     border-left: 4px solid #C62828 !important;
   }
 }
+
+/* ========================================
+   CORRECTION MOBILE POUR LA SECTION HERO
+   ======================================== */
+@media screen and (max-width: 768px) {
+  /* Ajuste l'espacement pour que tout tienne sur petit écran */
+  .hero-body {
+    padding: 2rem 1rem !important;
+  }
+
+  /* Rend le logo responsive et centré sur mobile */
+  .hero-logo img, 
+  .hero .image {
+    max-width: 120px !important;
+    height: auto !important;
+    margin: 0 auto 1rem auto !important;
+    display: block !important;
+  }
+
+  /* Force l'affichage du titre et du sous-titre */
+  .hero-title, 
+  .hero-subtitle {
+    display: block !important;
+    text-align: center !important;
+    font-size: 1.5rem !important;
+    line-height: 1.3 !important;
+  }
+
+  /* Assure que l'image de fond est visible (parfois masquée sur mobile par le thème) */
+  .hero-background, 
+  .hero-bg {
+    display: block !important;
+    opacity: 0.4 !important; /* Légèrement assombri pour que le texte reste lisible */
+  }
+
+  /* Rend le bouton d'action visible et facile à cliquer sur mobile */
+  .hero .button,
+  .hero a.button {
+    display: inline-block !important;
+    width: 100% !important;
+    max-width: 280px !important;
+    margin: 1.5rem auto 0 auto !important;
+    text-align: center !important;
+  }
+}

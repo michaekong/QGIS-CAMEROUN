@@ -5,7 +5,7 @@ subtitle: "Connecting and empowering the QGIS community in Cameroon"
 draft: false
 heroSize: "is-medium"
 heroLogo: "img/qgis-cameroun-icone-512.png"
-HeroImage: "img/hegobg1.webp"
+heroImage: "img/hegobg1.webp"
 HasBanner: true
 sidebar: true
 ButtonText: "Join Us!" 
