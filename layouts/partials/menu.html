@@ -1,9 +1,6 @@
 
 {{ $isLocal := (or (eq .Site.BaseURL "/") (strings.Contains .Site.BaseURL "localhost")) }}
 
-{{/* URL de VOTRE fichier JSON de navigation */}}
-{{ $navConfigURL := "https://raw.githubusercontent.com/michaekong/QGIS-CAMEROUN/master/static/config/navigation.json" }}
-
 <qg-top-nav
     breakpoint="1024"
     class="is-highest navbar is-fixed-top"
@@ -11,5 +8,5 @@
     logo-icon="{{ .Site.Params.uniNavHeaderLogoIcon | default "img/qgis-cameroun-icone-512.png" | absURL }}"
     logo-link="{{ .Site.BaseURL }}"
     second-menu-prefix="https://qgis.org"
-    secondary-menu-config="{{ $navConfigURL }}"
+    secondary-menu-config="/config/navigation.json"
 ></qg-top-nav>
