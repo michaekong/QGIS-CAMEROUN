@@ -1,10 +1,7 @@
-cat << 'EOF' > layouts/partials/menu.html
+
 {{ $isLocal := (or (eq .Site.BaseURL "/") (strings.Contains .Site.BaseURL "localhost")) }}
 
-{{/* 
-  IMPORTANT: Cette URL doit pointer vers VOTRE dépôt GitHub QGIS-CAMEROUN
-  Remplacez 'master' par 'main' si votre branche par défaut est 'main'
-*/}}
+{{/* URL de VOTRE fichier JSON de navigation */}}
 {{ $navConfigURL := "https://raw.githubusercontent.com/michaekong/QGIS-CAMEROUN/master/static/config/navigation.json" }}
 
 <qg-top-nav
@@ -16,4 +13,3 @@ cat << 'EOF' > layouts/partials/menu.html
     second-menu-prefix="https://qgis.org"
     secondary-menu-config="{{ $navConfigURL }}"
 ></qg-top-nav>
-EOF
