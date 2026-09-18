@@ -1,14 +1,19 @@
+cat << 'EOF' > layouts/partials/menu.html
 {{ $isLocal := (or (eq .Site.BaseURL "/") (strings.Contains .Site.BaseURL "localhost")) }}
-{{ $locationPrefix := .Site.Params.uniNavHeaderLocationPrefix }}
-{{ $logoIcon := .Site.Params.uniNavHeaderLogoIcon | default "https://qgis-cameroun-eight.vercel.app/img/qgis-cameroun-icone-512.png" }}
 
+{{/* 
+  IMPORTANT: Cette URL doit pointer vers VOTRE dépôt GitHub QGIS-CAMEROUN
+  Remplacez 'master' par 'main' si votre branche par défaut est 'main'
+*/}}
+{{ $navConfigURL := "https://raw.githubusercontent.com/michaekong/QGIS-CAMEROUN/master/static/config/navigation.json" }}
 
 <qg-top-nav
     breakpoint="1024"
     class="is-highest navbar is-fixed-top"
-    location-prefix="{{ $locationPrefix }}"
-    logo-icon="{{ $logoIcon | absURL }}"
+    location-prefix="cameroon"
+    logo-icon="{{ .Site.Params.uniNavHeaderLogoIcon | default "img/qgis-cameroun-icone-512.png" | absURL }}"
     logo-link="{{ .Site.BaseURL }}"
-    second-menu-prefix="https://qgis.github.io/QGIS-User-Group-Website/"
-    secondary-menu-config="https://raw.githubusercontent.com/qgis/QGIS-User-Group-Website/main/static/config/navigation.json"
+    second-menu-prefix="https://qgis.org"
+    secondary-menu-config="{{ $navConfigURL }}"
 ></qg-top-nav>
+EOF
