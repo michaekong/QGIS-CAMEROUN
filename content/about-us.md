@@ -46,7 +46,7 @@ To ensure nationwide impact, our community is anchored by dedicated Regional Coo
 
 We welcome individuals and institutions interested in geospatial technologies, from complete beginners to seasoned professionals. Our membership comprises:
 - GIS professionals and certified cartographers
-- environementalist and natural resource managers
+- environementalists and natural resource managers
 - Urban planners and territorial development experts
 - Academic researchers and university lecturers
 - Geomatics students and interns
