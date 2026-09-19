@@ -17,16 +17,24 @@ Stay informed about our upcoming meetups, workshops, and conferences. Join us to
 
 {{< rich-box-start layoutClass="has-right rounded" >}}
 {{< rich-content-start themeClass="coloring-2" >}}
-### QGIS Question of the Day (QOD) & Exclusive YouTube Interview
+### QGIS Open Day (QOD)
 
-**Date:** September 25, 2026  
-**Time:** 14:00 GMT (Please verify local time)  
-**Location:** Online (YouTube Live)  
+**Date:** September 25, 2025  
+**Time:** To be scheduled  
+**Location:** Live on QGIS YouTube channel  
 
 **Description:**  
-Join us for a special edition of the QGIS Question of the Day (QOD), featuring an exclusive interview and discussion session with the global QGIS community. This session will highlight community-driven insights, address common technical challenges, and showcase best practices in open-source geospatial workflows. 
+Join us for the QGIS Open Day (QOD), where we will officially introduce the QGIS Cameroon User Group and share more about our community.
 
-{{< button class="is-primary" link="https://youtube.com/@qgis" text="Watch on YouTube" >}} 
+During this session, we will present:
+- Our mission
+- Our goals
+- Our vision
+- Our activities and future plans for the QGIS community in Cameroon
+
+We are excited to share our journey with you and connect with the wider QGIS community. Stay tuned for the confirmed time and livestream link.
+
+{{< button class="is-primary" link="https://youtube.com/@qgis" text="Subscribe to QGIS YouTube" >}} 
 
 {{< rich-content-end >}}
 {{< rich-right-start >}}
@@ -80,11 +88,7 @@ Please check this page regularly for upcoming workshop schedules and registratio
 
 ## Past Events
 
-Our community has a strong track record of organizing impactful geospatial events. Archives of past presentations, workshop materials, and recorded sessions are available to members. 
-
-- **QGIS Day Cameroon 2025:** A full-day conference featuring keynote speakers from the global QGIS community and local industry leaders. *(Recording available upon request)*
-- **Open Data Mapping Workshop (Douala):** A collaborative session focused on contributing to OpenStreetMap and utilizing QGIS for urban planning.
-- **Introduction to QGIS Server:** A technical webinar on deploying and managing open-source web GIS infrastructure.
+We are currently building our event history. Check back soon for recordings, presentations, and workshop materials from our upcoming sessions.
 
 {{< rich-box-start layoutClass="tips" >}}
 {{< rich-content-start themeClass="coloring-1" >}}
