@@ -19,7 +19,7 @@ Stay informed about our upcoming meetups, workshops, and conferences. Join us to
 {{< rich-content-start themeClass="coloring-2" >}}
 ### QGIS Open Day (QOD)
 
-**Date:** September 25, 2026
+**Date:** September 25, 2026  
 **Time:** To be scheduled  
 **Location:** Live on QGIS YouTube channel  
 
