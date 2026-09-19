@@ -33,7 +33,7 @@ We are a dynamic community of geospatial professionals, students, researchers, a
 - Share best practices, local use cases, and open data initiatives.
 - Provide technical support and mentorship for QGIS users at all skill levels.
 - Contribute to the global QGIS project and advocate for open-source GIS in Central Africa.
-- Network with geospatial professionals, urban planners, and environementalists.
+- Network with geospatial professionals, urban planners, and environementalist.
 
 {{< rich-content-end >}}
 {{< rich-box-end >}}
